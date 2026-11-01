@@ -1,21 +1,21 @@
 {
-  "slug": "chinar-and-souvik",
+  "slug": "souvik-and-chinar",
   "meta": {
-    "title": "Chinar & Souvik | Wedding Invitation",
-    "description": "The Wedding of Chinar Sharma & Souvik Banerjee, 9 December 2026. Tap to open the invitation.",
+    "title": "Souvik & Chinar | Wedding Invitation",
+    "description": "The Wedding of Souvik Banerjee & Chinar Sharma, 9 December 2026. Tap to open the invitation.",
     "ogImage": "./assets/gate-cover.jpg?v=3",
     "noindex": true
   },
   "gate": {
     "line": "With the blessings of our families, we joyfully invite you to celebrate the wedding of",
-    "names": "Chinar & Souvik",
+    "names": "Souvik & Chinar",
     "date": "Wednesday, 09 December 2026",
     "button": "Open the invitation",
-    "foot": "Crafted with love for Chinar & Souvik"
+    "foot": "Crafted with love for Souvik & Chinar"
   },
   "preloader": {
-    "monogram": ["C", "&", "S"],
-    "names": "Chinar & Souvik",
+    "monogram": ["S", "&", "C"],
+    "names": "Souvik & Chinar",
     "hint": "Preparing the celebration"
   },
   "media": {
@@ -34,11 +34,11 @@
     "hostsSub": "(W/o Late Mr. Ajay Pal Sharma)",
     "residence": "104, Sunlight Residency Tower-3, Defence Enclave Sector-44, Noida",
     "request": "request the pleasure of your gracious presence on the auspicious occasion of the Wedding Ceremony of their beloved daughter",
-    "bride": "Chinar Sharma",
-    "brideElders": "Grand D/o Smt. Kiran Devi & Late Sh. Sita Ram Sharma (Dada & Dadi)<br>Grand D/o Smt. Rajeshwari & Late Sh. Rajendra Sharma (Nana & Nani)",
-    "joiner": "with",
     "groom": "Souvik Banerjee",
     "groomElders": "(S/o Mrs. Rina Banerjee & Mr. Dev Das Banerjee)<br>(R/o Indirapuram, Ghaziabad, Uttar Pradesh)",
+    "joiner": "with",
+    "bride": "Chinar Sharma",
+    "brideElders": "Grand D/o Smt. Kiran Devi & Late Sh. Sita Ram Sharma (Dada & Dadi)<br>Grand D/o Smt. Rajeshwari & Late Sh. Rajendra Sharma (Nana & Nani)",
     "closingLine": "Join us as we celebrate our love and begin a lifetime together."
   },
   "scratch": {
@@ -180,15 +180,15 @@
     ],
     "regards": "With love",
     "names": [
-      { "name": "Chinar" },
-      { "name": "Souvik" }
+      { "name": "Souvik" },
+      { "name": "Chinar" }
     ],
-    "hashtag": "#ChinarWedsSouvik",
+    "hashtag": "#SouvikWedsChinar",
     "credit": {
       "for": "Handcrafted by",
       "who": "GEMINI ✨",
       "by": null,
-      "note": "(while Chinar & Souvik take all the credit)",
+      "note": "(while Souvik & Chinar take all the credit)",
       "cta": null
     }
   }

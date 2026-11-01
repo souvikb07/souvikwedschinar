@@ -1,4 +1,4 @@
-// Chinar & Souvik — Wedding Invitation Web Application
+// Souvik & Chinar — Wedding Invitation Web Application
 // Implements the 5-stage flow: Gate -> Preloader -> Tap-to-open Cover -> Intro Film -> Main Invitation
 
 let content = null;
@@ -6,23 +6,23 @@ let isPageRevealed = false;
 
 // Helper: load content.json
 const DEFAULT_CONTENT = {
-  "slug": "chinar-and-souvik",
+  "slug": "souvik-and-chinar",
   "meta": {
-    "title": "Chinar & Souvik | Wedding Invitation",
-    "description": "The Wedding of Chinar Sharma & Souvik Banerjee, 9 December 2026. Tap to open the invitation.",
+    "title": "Souvik & Chinar | Wedding Invitation",
+    "description": "The Wedding of Souvik Banerjee & Chinar Sharma, 9 December 2026. Tap to open the invitation.",
     "ogImage": "./assets/gate-cover.jpg?v=3",
     "noindex": true
   },
   "gate": {
     "line": "With the blessings of our families, we joyfully invite you to celebrate the wedding of",
-    "names": "Chinar & Souvik",
+    "names": "Souvik & Chinar",
     "date": "Wednesday, 09 December 2026",
     "button": "Open the invitation",
-    "foot": "Crafted with love for Chinar & Souvik"
+    "foot": "Crafted with love for Souvik & Chinar"
   },
   "preloader": {
-    "monogram": ["C", "&", "S"],
-    "names": "Chinar & Souvik",
+    "monogram": ["S", "&", "C"],
+    "names": "Souvik & Chinar",
     "hint": "Preparing the celebration"
   },
   "media": {
@@ -41,11 +41,11 @@ const DEFAULT_CONTENT = {
     "hostsSub": "(W/o Late Mr. Ajay Pal Sharma)",
     "residence": "104, Sunlight Residency Tower-3, Defence Enclave Sector-44, Noida",
     "request": "request the pleasure of your gracious presence on the auspicious occasion of the Wedding Ceremony of their beloved daughter",
-    "bride": "Chinar Sharma",
-    "brideElders": "Grand D/o Smt. Kiran Devi & Late Sh. Sita Ram Sharma (Dada & Dadi)<br>Grand D/o Smt. Rajeshwari & Late Sh. Rajendra Sharma (Nana & Nani)",
-    "joiner": "with",
     "groom": "Souvik Banerjee",
     "groomElders": "(S/o Mrs. Rina Banerjee & Mr. Dev Das Banerjee)<br>(R/o Indirapuram, Ghaziabad, Uttar Pradesh)",
+    "joiner": "with",
+    "bride": "Chinar Sharma",
+    "brideElders": "Grand D/o Smt. Kiran Devi & Late Sh. Sita Ram Sharma (Dada & Dadi)<br>Grand D/o Smt. Rajeshwari & Late Sh. Rajendra Sharma (Nana & Nani)",
     "closingLine": "Join us as we celebrate our love and begin a lifetime together."
   },
   "scratch": {
@@ -187,15 +187,15 @@ const DEFAULT_CONTENT = {
     ],
     "regards": "With love",
     "names": [
-      { "name": "Chinar" },
-      { "name": "Souvik" }
+      { "name": "Souvik" },
+      { "name": "Chinar" }
     ],
-    "hashtag": "#ChinarWedsSouvik",
+    "hashtag": "#SouvikWedsChinar",
     "credit": {
       "for": "Handcrafted by",
       "who": "GEMINI ✨",
       "by": null,
-      "note": "(while Chinar & Souvik take all the credit)",
+      "note": "(while Souvik & Chinar take all the credit)",
       "cta": null
     }
   }
@@ -252,7 +252,7 @@ function renderGate() {
     <div class="xg-bg" style="background-image:url(${media.gateCover})"></div>
     <div class="xg-petals">${petalsHtml}</div>
     <section class="xg-card">
-      <img class="xg-cover" src="${media.gateCover}" alt="Chinar & Souvik Wedding">
+      <img class="xg-cover" src="${media.gateCover}" alt="Souvik & Chinar Wedding">
       <div class="xg-body">
         <p class="xg-line">${gate.line}</p>
         <h1 class="xg-names">${gate.names}</h1>
@@ -390,7 +390,7 @@ function showCover() {
 
   const { media } = content;
   coverEl.innerHTML = `
-    <img src="${media.introCover}" alt="Chinar & Souvik — Tap to Open" draggable="false">
+    <img src="${media.introCover}" alt="Souvik & Chinar — Tap to Open" draggable="false">
   `;
   coverEl.setAttribute('role', 'button');
   coverEl.setAttribute('tabindex', '0');
@@ -712,7 +712,7 @@ function renderHeroAndScratch() {
         <span class="sec-eyebrow">${hero.eyebrow}</span>
       </header>
 
-      <!-- Host Card (Bride Info & Name First) -->
+      <!-- Host Card (Groom Info & Name First) -->
       <article class="paper ruled card-a">
         <div class="hero-hosts">
           ${hero.hosts}
@@ -722,13 +722,13 @@ function renderHeroAndScratch() {
 
         <div class="hero-names">
           <div class="hero-person">
-            <span class="hero-name">${hero.bride}</span>
-            ${hero.brideElders ? `<div class="hero-person-elders">${hero.brideElders}</div>` : ''}
+            <span class="hero-name">${hero.groom}</span>
+            ${hero.groomElders ? `<div class="hero-person-elders">${hero.groomElders}</div>` : ''}
           </div>
           <span class="hero-joiner">${hero.joiner}</span>
           <div class="hero-person">
-            <span class="hero-name">${hero.groom}</span>
-            ${hero.groomElders ? `<div class="hero-person-elders">${hero.groomElders}</div>` : ''}
+            <span class="hero-name">${hero.bride}</span>
+            ${hero.brideElders ? `<div class="hero-person-elders">${hero.brideElders}</div>` : ''}
           </div>
         </div>
 
@@ -1097,7 +1097,7 @@ function renderEventsHtml() {
         <img class="ev-img" src="${ev.art}" alt="${ev.name}" loading="lazy">
         <div class="ev-eng-over">
           <span class="ev-eng-eyebrow">The Engagement of</span>
-          <h3 class="ev-eng-names">Chinar &amp; Souvik</h3>
+          <h3 class="ev-eng-names">Souvik &amp; Chinar</h3>
           <div class="ev-eng-ornament"><i></i>✦<i></i></div>
           <div class="ev-eng-date">${ev.day}, ${ev.date}</div>
           <div class="ev-eng-time">${ev.time}</div>
@@ -1121,7 +1121,7 @@ function renderEventsHtml() {
         <img class="ev-img" src="${ev.art}" alt="${ev.name}" loading="lazy">
         <div class="ev-wed-over">
           <span class="ev-wed-eyebrow">The Wedding Ceremony</span>
-          <h3 class="ev-wed-names">Chinar &amp; Souvik</h3>
+          <h3 class="ev-wed-names">Souvik &amp; Chinar</h3>
           <div class="ev-wed-ornament"><i></i>✦<i></i></div>
           <div class="ev-wed-date">${ev.day}, ${ev.date}</div>
           <div class="ev-wed-time">${ev.time}</div>
