@@ -129,6 +129,7 @@ const DEFAULT_CONTENT = {
     ]
   },
   "rsvp": {
+    "scriptUrl": "",
     "eyebrow": "We'd love to hear from you",
     "title": "RSVP",
     "lead": "Please let us know if you can celebrate this special day with us.",
@@ -153,6 +154,11 @@ const DEFAULT_CONTENT = {
     "functions": {
       "q": "Which functions?",
       "sub": "Tick everything you will be at."
+    },
+    "blessing": {
+      "q": "Blessings & Wishes",
+      "sub": "Leave a warm message or wish for Souvik & Chinar",
+      "ph": "Warmest wishes on your special day…"
     },
     "familyRsvp": {
       "title": "R.S.V.P.",
@@ -1459,12 +1465,71 @@ function initRsvpForm() {
       submitBtn.innerHTML = `<span class="rs-spinner"></span> <span>${rsvp.submitting}</span>`;
       submitBtn.disabled = true;
 
-      // Simulate save to local & backend
-      setTimeout(() => {
-        localStorage.setItem('cs_wedding_rsvp', JSON.stringify(formData));
-        window.__isRsvpEditing = false;
-        showRsvpDone(formData);
-      }, 700);
+      // Map functions/events to readable names
+      let eventsAttending = '-';
+      if (formData.coming) {
+        if (formData.functions && formData.functions.length) {
+          eventsAttending = formData.functions.map(id => {
+            const ev = (content.events?.items || []).find(e => e.id === id);
+            return ev ? ev.name : id;
+          }).join(', ');
+        } else {
+          eventsAttending = 'None';
+        }
+      }
+
+      // Format timestamp in IST
+      let istTimestamp = '';
+      try {
+        istTimestamp = new Date().toLocaleString('en-IN', {
+          timeZone: 'Asia/Kolkata',
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+          hour12: true
+        });
+      } catch (e) {
+        istTimestamp = new Date().toISOString();
+      }
+
+      const payload = {
+        timestamp: istTimestamp,
+        name: formData.name,
+        phone: formData.phone || '-',
+        attending: formData.coming ? 'Yes 🎉' : 'With regrets, can’t make it ❌',
+        guests: formData.coming ? Number(formData.guests) : 0,
+        functions: eventsAttending,
+        blessing: formData.blessing || '-'
+      };
+
+      // Always save locally so the guest's browser remembers their reply
+      localStorage.setItem('cs_wedding_rsvp', JSON.stringify(formData));
+
+      // Post to Google Sheet via Apps Script Web App
+      const scriptUrl = (content.rsvp && content.rsvp.scriptUrl) ? content.rsvp.scriptUrl.trim() : '';
+
+      const submitPromise = scriptUrl
+        ? fetch(scriptUrl, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify(payload)
+          })
+        : new Promise(resolve => setTimeout(resolve, 600));
+
+      // Safety timeout so user is never stuck on spinner
+      const timeout = new Promise(resolve => setTimeout(resolve, 3500));
+
+      Promise.race([submitPromise, timeout])
+        .catch(err => {
+          console.warn('Google Sheet RSVP submission issue:', err);
+        })
+        .finally(() => {
+          window.__isRsvpEditing = false;
+          showRsvpDone(formData);
+        });
     });
   }
 

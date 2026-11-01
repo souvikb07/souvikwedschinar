@@ -122,6 +122,7 @@
     ]
   },
   "rsvp": {
+    "scriptUrl": "",
     "eyebrow": "We'd love to hear from you",
     "title": "RSVP",
     "lead": "Please let us know if you can celebrate this special day with us.",
@@ -146,6 +147,11 @@
     "functions": {
       "q": "Which functions?",
       "sub": "Tick everything you will be at."
+    },
+    "blessing": {
+      "q": "Blessings & Wishes",
+      "sub": "Leave a warm message or wish for Souvik & Chinar",
+      "ph": "Warmest wishes on your special day…"
     },
     "familyRsvp": {
       "title": "R.S.V.P.",
