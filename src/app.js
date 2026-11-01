@@ -42,7 +42,7 @@ const DEFAULT_CONTENT = {
     "residence": "Indirapuram, Ghaziabad, Uttar Pradesh",
     "request": "request the pleasure of your gracious presence on the auspicious occasion of the Wedding Ceremony of their beloved son",
     "groom": "Souvik Banerjee",
-    "groomElders": "(S/o Mrs. Rina Banerjee & Mr. Dev Das Banerjee)<br>(R/o Indirapuram, Ghaziabad, Uttar Pradesh)",
+    "groomElders": "",
     "joiner": "with",
     "bride": "Chinar Sharma",
     "brideElders": "D/o Late Mr. Ajay Pal Sharma & Simmy Sharma",
