@@ -156,7 +156,7 @@ const DEFAULT_CONTENT = {
     },
     "familyRsvp": {
       "title": "R.S.V.P.",
-      "names": "Ramesh Chand Sharma · Mahesh Sharma · Naresh Sharma\nJitender Sharma & Kartik Sharma"
+      "names": "Dev Das Banerjee & Rina Banerjee"
     },
     "submit": "Send it over",
     "submitting": "Sending…",
@@ -172,11 +172,11 @@ const DEFAULT_CONTENT = {
     },
     "call": {
       "title": "A Cordial Invitation From",
-      "subtitle": "Mrs. Simmy Sharma (W/o Late Mr. Ajay Pal Sharma)\n104, Sunlight Residency Tower-3, Defence Enclave Sector-44, Noida",
+      "subtitle": "Mrs. Rina & Dev Das Banerjee\nIndirapuram, Ghaziabad, Uttar Pradesh",
       "people": [
-        { "name": "Mrs. Simmy Sharma", "tel": "+919354857574", "display": "+91 9354857574" },
-        { "name": "Jitendra Sharma", "tel": "+919811764980", "display": "+91 9811764980" },
-        { "name": "Kartik Sharma", "tel": "+9198773251579", "display": "+91 98773251579" }
+        { "name": "Dev Das Banerjee", "tel": "+917428175059", "display": "+91 7428175059" },
+        { "name": "Rina Banerjee", "tel": "+918851362403", "display": "+91 8851362403" },
+        { "name": "Souvik Banerjee", "tel": "+917217840363", "display": "+91 7217840363" }
       ]
     }
   },
