@@ -1,0 +1,195 @@
+{
+  "slug": "chinar-and-souvik",
+  "meta": {
+    "title": "Chinar & Souvik | Wedding Invitation",
+    "description": "The Wedding of Chinar Sharma & Souvik Banerjee, 9 December 2026. Tap to open the invitation.",
+    "ogImage": "./assets/gate-cover.jpg?v=3",
+    "noindex": true
+  },
+  "gate": {
+    "line": "With the blessings of our families, we joyfully invite you to celebrate the wedding of",
+    "names": "Chinar & Souvik",
+    "date": "Wednesday, 09 December 2026",
+    "button": "Open the invitation",
+    "foot": "Crafted with love for Chinar & Souvik"
+  },
+  "preloader": {
+    "monogram": ["C", "&", "S"],
+    "names": "Chinar & Souvik",
+    "hint": "Preparing the celebration"
+  },
+  "media": {
+    "gateCover": "./assets/gate-cover.jpg?v=3",
+    "introCover": "./assets/intro-cover.jpg",
+    "ganesha": "./assets/ganesha-icon.svg"
+  },
+  "hero": {
+    "mantra": "॥ श्री गणेशाय नमः ॥",
+    "shloka": [
+      "विघ्न हरण मंगल करण, श्री गणपति जी महाराज ।",
+      "प्रथम निमंत्रण आपको, पूरण कीजै काज ॥"
+    ],
+    "eyebrow": "A Heartfelt Invitation",
+    "hosts": "Mrs. Simmy Sharma",
+    "hostsSub": "(W/o Late Mr. Ajay Pal Sharma)",
+    "residence": "104, Sunlight Residency Tower-3, Defence Enclave Sector-44, Noida",
+    "request": "request the pleasure of your gracious presence on the auspicious occasion of the Wedding Ceremony of their beloved daughter",
+    "bride": "Chinar Sharma",
+    "brideElders": "Grand D/o Smt. Kiran Devi & Late Sh. Sita Ram Sharma (Dada & Dadi)<br>Grand D/o Smt. Rajeshwari & Late Sh. Rajendra Sharma (Nana & Nani)",
+    "joiner": "with",
+    "groom": "Souvik Banerjee",
+    "groomElders": "(S/o Mrs. Rina Banerjee & Mr. Dev Das Banerjee)<br>(R/o Indirapuram, Ghaziabad, Uttar Pradesh)",
+    "closingLine": "Join us as we celebrate our love and begin a lifetime together."
+  },
+  "scratch": {
+    "eyebrow": "On",
+    "day": "Wednesday",
+    "date": "09 Dec 2026",
+    "hint": "Scratch to reveal",
+    "gate": "Scratch the card to open"
+  },
+  "countdown": {
+    "eyebrow": "Counting down to",
+    "title": "The journey to forever",
+    "target": "2026-12-09T20:00:00+05:30",
+    "labels": ["Days", "Hours", "Mins", "Secs"]
+  },
+  "photos": {
+    "title": "A few favourite moments",
+    "items": [
+      { "src": "./assets/photo-1.jpg", "cap": "Where it all began", "rot": -1.17 },
+      { "src": "./assets/photo-2.jpg", "cap": "Some moments become memories", "rot": 2.8 },
+      { "src": "./assets/photo-3.jpg", "cap": "Smile says it all", "rot": -1.73 },
+      { "src": "./assets/photo-4.jpg", "cap": "An evening out", "rot": 2.27 },
+      { "src": "./assets/photo-5.jpg", "cap": "Now forever", "rot": -1.37 }
+    ]
+  },
+  "events": {
+    "eyebrow": "Save these dates",
+    "title": "The Celebrations",
+    "lead": "Two functions in Ghaziabad.",
+    "items": [
+      {
+        "id": "engagement",
+        "name": "Engagement",
+        "date": "06 December 2026",
+        "day": "Sunday",
+        "time": "1:00 PM onwards",
+        "venue": "Sri Mahal Banquet and Resort",
+        "place": "Sector 1, Vaishali, Ghaziabad",
+        "map": "https://maps.app.goo.gl/4bbKDK2Ty7uevoS57",
+        "dress": "Indo-western / Cocktail",
+        "art": "./assets/ev-engagement.jpg?v=4",
+        "rsvpLine": "06 December · Vaishali, Ghaziabad"
+      },
+      {
+        "id": "wedding",
+        "name": "The Wedding",
+        "date": "09 December 2026",
+        "day": "Wednesday",
+        "time": "8:00 PM onwards",
+        "schedule": "Barat: 8:00 PM · Dinner: 8:00 PM · Auspicious Phere",
+        "venue": "ROYAL AMBIENCE PARTY LAWN 2",
+        "place": "Vasundhara Indirapuram Highway, CISF Road, Ghaziabad",
+        "map": "https://maps.app.goo.gl/8PwiRfFpS6UhWu6Y9",
+        "dress": "Traditional and royal ethnic",
+        "art": "./assets/ev-wedding.jpg?v=3",
+        "rsvpLine": "09 December · Indirapuram, Ghaziabad",
+        "headline": true
+      }
+    ]
+  },
+  "directions": {
+    "title": "Directions",
+    "lead": "Venues in Vaishali & Indirapuram, Ghaziabad.",
+    "items": [
+      {
+        "city": "Ghaziabad",
+        "name": "Sri Mahal Banquet and Resort",
+        "place": "Sector 1, Vaishali, Ghaziabad (near Radisson Blu)",
+        "when": "Engagement",
+        "dates": "Sunday, 06 December 2026",
+        "map": "https://maps.app.goo.gl/4bbKDK2Ty7uevoS57"
+      },
+      {
+        "city": "Ghaziabad",
+        "name": "ROYAL AMBIENCE PARTY LAWN 2",
+        "place": "Vasundhara Indirapuram Highway, CISF Road, Ghaziabad (U.P.)",
+        "when": "The Wedding",
+        "dates": "Wednesday, 09 December 2026",
+        "map": "https://maps.app.goo.gl/8PwiRfFpS6UhWu6Y9"
+      }
+    ]
+  },
+  "rsvp": {
+    "eyebrow": "We'd love to hear from you",
+    "title": "RSVP",
+    "lead": "Please let us know if you can celebrate this special day with us.",
+    "leadEdit": "Change whatever you need to, then save it.",
+    "join": {
+      "q": "Will you be celebrating with us?",
+      "yes": "We'll be there 🎉",
+      "no": "With regrets, can't make it"
+    },
+    "fields": {
+      "name": "Your name",
+      "namePh": "Full name",
+      "nameErr": "Please tell us your name.",
+      "phone": "Phone",
+      "phoneOpt": "(optional)",
+      "phonePh": "+91",
+      "guests": "How many of you?",
+      "guestsDefault": 2,
+      "guestsMin": 1,
+      "guestsMax": 10
+    },
+    "functions": {
+      "q": "Which functions?",
+      "sub": "Tick everything you will be at."
+    },
+    "familyRsvp": {
+      "title": "R.S.V.P.",
+      "names": "Ramesh Chand Sharma · Mahesh Sharma · Naresh Sharma\nJitender Sharma & Kartik Sharma"
+    },
+    "submit": "Send it over",
+    "submitting": "Sending…",
+    "save": "Save my reply",
+    "saving": "Saving…",
+    "cancelEdit": "Keep it as it was",
+    "done": {
+      "title": "Thank you, {first}",
+      "comingOne": "Coming, just you",
+      "comingMany": "Coming, {n} of you",
+      "notComing": "Not able to make it",
+      "edit": "Change my reply"
+    },
+    "call": {
+      "title": "A Cordial Invitation From",
+      "subtitle": "Mrs. Simmy Sharma (W/o Late Mr. Ajay Pal Sharma)\n104, Sunlight Residency Tower-3, Defence Enclave Sector-44, Noida",
+      "people": [
+        { "name": "Mrs. Simmy Sharma", "tel": "+919354857574", "display": "+91 9354857574" },
+        { "name": "Jitendra Sharma", "tel": "+919811764980", "display": "+91 9811764980" },
+        { "name": "Kartik Sharma", "tel": "+9198773251579", "display": "+91 98773251579" }
+      ]
+    }
+  },
+  "footer": {
+    "messages": [
+      "Hand in hand, we begin a lifetime of love. Join us in making its first moments unforgettable.",
+      "Share in our joy, dance into the evening, and bless the life we’ll build together."
+    ],
+    "regards": "With love",
+    "names": [
+      { "name": "Chinar" },
+      { "name": "Souvik" }
+    ],
+    "hashtag": "#ChinarWedsSouvik",
+    "credit": {
+      "for": "Handcrafted by",
+      "who": "GEMINI ✨",
+      "by": null,
+      "note": "(while Chinar & Souvik take all the credit)",
+      "cta": null
+    }
+  }
+}

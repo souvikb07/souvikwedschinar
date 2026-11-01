@@ -1,0 +1,116 @@
+{
+  "_note": "Sample content taken from the reference invitation. Replace with your own details. Phone numbers are placeholders on purpose.",
+  "slug": "anoushka-ishan",
+  "meta": {
+    "title": "Anoushka & Ishan | Wedding Invitation",
+    "description": "The Wedding, 22 November 2026, The Ryan Farms, Kapashera, New Delhi. Tap to open the invitation.",
+    "ogImage": "/assets/og-image.jpg",
+    "noindex": true
+  },
+  "gate": {
+    "line": "With the blessings of our families, we warmly invite you to the wedding of",
+    "names": "Anoushka & Ishan",
+    "date": "Sunday, 22 November 2026",
+    "button": "Open the invitation",
+    "foot": "Crafted with love by <your name>"
+  },
+  "preloader": { "monogram": ["I", "&", "A"], "names": "Anoushka & Ishan", "hint": "Preparing for take-off" },
+  "media": {
+    "gateCover": "/assets/gate-cover.webp",
+    "introCover": "/assets/intro-cover.webp",
+    "introFilm": "/assets/intro-film.mp4",
+    "music": "/assets/bg-music.mp3",
+    "musicVolume": 0.8,
+    "ganesha": "/assets/ganesha-icon.webp"
+  },
+  "hero": {
+    "mantra": "॥ श्री गणेशाय नमः ॥",
+    "shloka": ["वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।", "निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥"],
+    "eyebrow": "A cordial invitation",
+    "hosts": "Mrs Ragini & Gp Capt Aniruddh Kumar",
+    "request": "request the honour of your presence at the wedding of their beloved daughter",
+    "bride": "Adv Anoushka",
+    "joiner": "with",
+    "groom": "Capt Ishan",
+    "groomParents": "(S/o Mrs Kalpana & Col Prashant Chandewar)",
+    "closingLine": "Please join us in celebrating love & happiness"
+  },
+  "scratch": {
+    "eyebrow": "On",
+    "day": "Sunday",
+    "date": "22 Nov 2026",
+    "hint": "Scratch to reveal",
+    "gate": "Scratch the card to open"
+  },
+  "countdown": { "eyebrow": "Counting down to", "title": "The flight to forever", "target": "2026-11-22T19:30:00+05:30", "labels": ["Days", "Hours", "Mins", "Secs"] },
+  "photos": {
+    "title": "A few favourite moments",
+    "items": [
+      { "src": "/assets/photo-1.webp", "cap": "Where it all began", "rot": -1.17 },
+      { "src": "/assets/photo-2.webp", "cap": "Some moments become memories", "rot": 2.8 },
+      { "src": "/assets/photo-3.webp", "cap": "Smile says it all", "rot": -1.73 },
+      { "src": "/assets/photo-4.webp", "cap": "An evening out", "rot": 2.27 },
+      { "src": "/assets/photo-5.webp", "cap": "Now forever", "rot": -1.37 }
+    ]
+  },
+  "events": {
+    "eyebrow": "Save these dates",
+    "title": "The Celebrations",
+    "lead": "Four functions over three days, in Gurugram and Delhi.",
+    "items": [
+      { "id": "mehendi", "name": "Mehendi", "date": "20 November 2026", "day": "Friday", "time": "2:30 PM", "venue": "Our Residence", "place": "BPTP Terra, Sector 37D, Gurugram", "map": "https://maps.app.goo.gl/7QGe9BR8AcgvyH297", "dress": "Shades of mint green and corals", "art": "/assets/ev-mehendi.webp", "rsvpLine": "20 November · BPTP Terra, Sector 37D, Gurugram" },
+      { "id": "engagement", "name": "Engagement", "date": "21 November 2026", "day": "Saturday", "time": "7:00 PM", "venue": "The Ryan Farms", "place": "Kapashera, New Delhi", "map": "https://maps.app.goo.gl/7GRCb299Tvfk1oSf8", "dress": "Indo-western", "art": "/assets/ev-engagement.webp", "rsvpLine": "21 November · Kapashera, New Delhi" },
+      { "id": "haldi", "name": "Hues Of Haldi", "date": "22 November 2026", "day": "Sunday", "time": "9:30 AM", "venue": "The Ryan Farms", "place": "Kapashera, New Delhi", "map": "https://maps.app.goo.gl/7GRCb299Tvfk1oSf8", "dress": "Shades of yellow and oranges", "art": "/assets/ev-haldi.webp", "rsvpLine": "22 November · Kapashera, New Delhi" },
+      { "id": "wedding", "name": "The Wedding", "date": "22 November 2026", "day": "Sunday", "time": "7:30 PM", "venue": "The Ryan Farms", "place": "Kapashera, New Delhi", "map": "https://maps.app.goo.gl/7GRCb299Tvfk1oSf8", "dress": "Traditional and royal ethnic", "art": "/assets/ev-wedding.webp", "rsvpLine": "22 November · Kapashera, New Delhi", "headline": true }
+    ]
+  },
+  "directions": {
+    "title": "Directions",
+    "lead": "Their home in Gurugram, then the farm in Delhi.",
+    "items": [
+      { "city": "Gurugram", "name": "Our Residence", "place": "BPTP Terra, Sector 37D, Gurugram", "when": "Mehendi", "dates": "20 November 2026", "map": "https://maps.app.goo.gl/7QGe9BR8AcgvyH297" },
+      { "city": "New Delhi", "name": "The Ryan Farms", "place": "Kapashera, New Delhi", "when": "Engagement, Hues Of Haldi and the Wedding", "dates": "21 - 22 November 2026", "map": "https://maps.app.goo.gl/7GRCb299Tvfk1oSf8" }
+    ]
+  },
+  "rsvp": {
+    "eyebrow": "One last thing",
+    "title": "RSVP",
+    "lead": "A few quick things, and a few fun ones.",
+    "leadEdit": "Change whatever you need to, then save it.",
+    "join": { "q": "Will you join us?", "yes": "Joyfully accept 🎉", "no": "Regrettably decline" },
+    "fields": { "name": "Your name", "namePh": "Full name", "nameErr": "Please tell us your name.", "phone": "Phone", "phoneOpt": "(optional)", "phonePh": "+91", "guests": "How many of you?", "guestsDefault": 2, "guestsMin": 1, "guestsMax": 10 },
+    "functions": { "q": "Which functions?", "sub": "Tick everything you will be at." },
+    "bets": {
+      "title": "Place your bet",
+      "items": [
+        { "key": "ring", "q": "The ring goes into the thali of milk and rose petals. Who finds it first?", "options": ["Ishan", "Anoushka", "Best of three"] },
+        { "key": "dance", "q": "And who owns the dance floor on the cocktail night?", "options": ["Team Bride", "Team Groom", "The uncles, obviously 🕺"] },
+        { "key": "baraat", "q": "The baraat arrives…", "options": ["Sharp on time", "Fashionably late", "When the band gets tired 🥁"] },
+        { "key": "joota", "q": "Joota chupai - how does it end?", "options": ["Her sisters win", "His squad saves the shoes", "Settled at ₹51,000"] }
+      ],
+      "note": "Answers settled on the night."
+    },
+    "blessing": { "q": "A blessing, or some advice", "sub": "One line you wish someone had told you.", "ph": "Say the thing…" },
+    "submit": "Send it over",
+    "submitting": "Sending…",
+    "save": "Save my reply",
+    "saving": "Saving…",
+    "cancelEdit": "Keep it as it was",
+    "done": { "title": "Thank you, {first}", "comingOne": "Coming, just you", "comingMany": "Coming, {n} of you", "notComing": "Not able to make it", "edit": "Change my reply" },
+    "call": {
+      "title": "Or simply call us",
+      "people": [
+        { "name": "Gp Capt Aniruddh", "tel": "+910000000001", "display": "+91 00000 00001" },
+        { "name": "Mrs Ragini", "tel": "+910000000002", "display": "+91 00000 00002" },
+        { "name": "Maj Lavanya Sharma, SM", "tel": "+910000000003", "display": "+91 00000 00003" }
+      ]
+    }
+  },
+  "footer": {
+    "messages": ["Come celebrate with us as two hearts become one and a new chapter begins.", "Come eat with us, dance with us, and bless us as we begin."],
+    "regards": "With love",
+    "names": [{ "rank": "Adv", "name": "Anoushka" }, { "rank": "Capt", "name": "Ishan" }],
+    "hashtag": "#FlyingIntoForever",
+    "credit": { "for": "Handcrafted for", "who": "ANOUSHKA & ISHAN", "by": "<your name>", "cta": null }
+  }
+}
