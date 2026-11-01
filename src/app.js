@@ -129,7 +129,7 @@ const DEFAULT_CONTENT = {
     ]
   },
   "rsvp": {
-    "scriptUrl": "",
+    "scriptUrl": "https://script.google.com/macros/s/AKfycbzgZqdVczV8qCP7mx65v1G3Y1CjvKevwLHiJ8gnww5_BBkvsZ-H1OymqWdjZqZVJxc1/exec",
     "eyebrow": "We'd love to hear from you",
     "title": "RSVP",
     "lead": "Please let us know if you can celebrate this special day with us.",
