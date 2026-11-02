@@ -1196,8 +1196,9 @@ input, textarea {
   border-radius: 4px;
 }
 
+.ev-art--sangeet,
 .ev-art--eng {
-  aspect-ratio: 703 / 1006;
+  aspect-ratio: 724 / 1024;
 }
 
 .ev-art--wed {

@@ -70,17 +70,17 @@
     "lead": "Two functions in Ghaziabad.",
     "items": [
       {
-        "id": "engagement",
-        "name": "Engagement",
-        "date": "06 December 2026",
-        "day": "Sunday",
-        "time": "1:00 PM onwards",
-        "venue": "Sri Mahal Banquet and Resort",
-        "place": "Sector 1, Vaishali, Ghaziabad",
-        "map": "https://maps.app.goo.gl/4bbKDK2Ty7uevoS57",
-        "dress": "Indo-western / Cocktail",
-        "art": "./assets/ev-engagement.jpg?v=4",
-        "rsvpLine": "06 December · Vaishali, Ghaziabad"
+        "id": "sangeet",
+        "name": "Haldi, Mehndi & Sangeet",
+        "date": "08 December 2026",
+        "day": "Tuesday",
+        "time": "Haldi: 4:00 PM · Mehndi & Sangeet: 7:00 PM onwards",
+        "venue": "Shri Laxmi Celebration Residency",
+        "place": "Vasundhara, Ghaziabad",
+        "map": "https://maps.app.goo.gl/rzT4y36k8suX6nYG6",
+        "dress": "Festive / Traditional",
+        "art": "./assets/ev-haldi-sangeet.jpg?v=1",
+        "rsvpLine": "08 December · Vasundhara, Ghaziabad"
       },
       {
         "id": "wedding",
@@ -101,15 +101,15 @@
   },
   "directions": {
     "title": "Directions",
-    "lead": "Venues in Vaishali & Indirapuram, Ghaziabad.",
+    "lead": "Venues in Vasundhara & Indirapuram, Ghaziabad.",
     "items": [
       {
         "city": "Ghaziabad",
-        "name": "Sri Mahal Banquet and Resort",
-        "place": "Sector 1, Vaishali, Ghaziabad (near Radisson Blu)",
-        "when": "Engagement",
-        "dates": "Sunday, 06 December 2026",
-        "map": "https://maps.app.goo.gl/4bbKDK2Ty7uevoS57"
+        "name": "Shri Laxmi Celebration Residency",
+        "place": "Vasundhara, Ghaziabad",
+        "when": "Haldi, Mehndi & Sangeet",
+        "dates": "Tuesday, 08 December 2026",
+        "map": "https://maps.app.goo.gl/rzT4y36k8suX6nYG6"
       },
       {
         "city": "Ghaziabad",

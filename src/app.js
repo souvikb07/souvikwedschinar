@@ -77,17 +77,17 @@ const DEFAULT_CONTENT = {
     "lead": "Two functions in Ghaziabad.",
     "items": [
       {
-        "id": "engagement",
-        "name": "Engagement",
-        "date": "06 December 2026",
-        "day": "Sunday",
-        "time": "1:00 PM onwards",
-        "venue": "Sri Mahal Banquet and Resort",
-        "place": "Sector 1, Vaishali, Ghaziabad",
-        "map": "https://maps.app.goo.gl/4bbKDK2Ty7uevoS57",
-        "dress": "Indo-western / Cocktail",
-        "art": "./assets/ev-engagement.jpg?v=4",
-        "rsvpLine": "06 December · Vaishali, Ghaziabad"
+        "id": "sangeet",
+        "name": "Haldi, Mehndi & Sangeet",
+        "date": "08 December 2026",
+        "day": "Tuesday",
+        "time": "Haldi: 4:00 PM · Mehndi & Sangeet: 7:00 PM onwards",
+        "venue": "Shri Laxmi Celebration Residency",
+        "place": "Vasundhara, Ghaziabad",
+        "map": "https://maps.app.goo.gl/rzT4y36k8suX6nYG6",
+        "dress": "Festive / Traditional",
+        "art": "./assets/ev-haldi-sangeet.jpg?v=1",
+        "rsvpLine": "08 December · Vasundhara, Ghaziabad"
       },
       {
         "id": "wedding",
@@ -108,15 +108,15 @@ const DEFAULT_CONTENT = {
   },
   "directions": {
     "title": "Directions",
-    "lead": "Venues in Vaishali & Indirapuram, Ghaziabad.",
+    "lead": "Venues in Vasundhara & Indirapuram, Ghaziabad.",
     "items": [
       {
         "city": "Ghaziabad",
-        "name": "Sri Mahal Banquet and Resort",
-        "place": "Sector 1, Vaishali, Ghaziabad (near Radisson Blu)",
-        "when": "Engagement",
-        "dates": "Sunday, 06 December 2026",
-        "map": "https://maps.app.goo.gl/4bbKDK2Ty7uevoS57"
+        "name": "Shri Laxmi Celebration Residency",
+        "place": "Vasundhara, Ghaziabad",
+        "when": "Haldi, Mehndi & Sangeet",
+        "dates": "Tuesday, 08 December 2026",
+        "map": "https://maps.app.goo.gl/rzT4y36k8suX6nYG6"
       },
       {
         "city": "Ghaziabad",
@@ -1094,22 +1094,13 @@ function renderEventsHtml() {
   const { events } = content;
 
   const cardsHtml = events.items.map(ev => {
-    const isEng = ev.id === 'engagement';
+    const isSangeet = ev.id === 'sangeet' || ev.id === 'engagement';
 
-    if (isEng) {
+    if (isSangeet) {
       return `
-    <article class="paper ev-card ev-card--engagement">
-      <div class="ev-art ev-art--eng">
-        <img class="ev-img" src="${ev.art}" alt="${ev.name}" loading="lazy">
-        <div class="ev-eng-over">
-          <span class="ev-eng-eyebrow">The Engagement of</span>
-          <h3 class="ev-eng-names">Souvik &amp; Chinar</h3>
-          <div class="ev-eng-ornament"><i></i>✦<i></i></div>
-          <div class="ev-eng-date">${ev.day}, ${ev.date}</div>
-          <div class="ev-eng-time">${ev.time}</div>
-          <div class="ev-eng-venue">${ev.venue}</div>
-          <div class="ev-eng-place">${ev.place}</div>
-        </div>
+    <article class="paper ev-card ev-card--sangeet">
+      <div class="ev-art ev-art--sangeet">
+        <img class="ev-img" src="${ev.art}" alt="${ev.name} - ${ev.venue}" loading="lazy">
       </div>
       <div class="ev-foot">
         <a class="ev-dir" href="${ev.map}" target="_blank" rel="noopener noreferrer">
